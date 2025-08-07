@@ -1,0 +1,29 @@
+title: "Neha Rai"
+description: "Academic Portfolio | Assistant Professor | Researcher"
+author: "Neha Rai"
+email: phd.neharai@gmail.com
+theme: minima
+baseurl: "" # Leave blank unless using a subdirectory
+url: "https://yourusername.github.io" # Replace with your actual GitHub Pages URL
+
+markdown: kramdown
+permalink: pretty
+
+# Navigation bar links
+header_pages:
+  - index.md
+  - about.md
+  - publications.md
+  - projects.md
+  - contact.md
+
+# Social media links (optional)
+# social_links:
+#   - name: LinkedIn
+#     url: https://www.linkedin.com/in/yourprofile/
+#   - name: ResearchGate
+#     url: https://www.researchgate.net/profile/yourprofile
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
